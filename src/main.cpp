@@ -1992,7 +1992,7 @@ int64_t GetBlockValue(int nHeight)
     nHeight--;
     if (nHeight == 1) {
 		nSubsidy = 80000 * COIN;
-	} else if (nHeight < 1000) {
+	} else if (nHeight < 300) {
 		nSubsidy = 0 * COIN; // Anti-insta mine
 	} else if (nHeight < 6040) {
 		nSubsidy = 0.25 * COIN;

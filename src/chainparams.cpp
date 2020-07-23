@@ -137,8 +137,8 @@ public:
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 31240;
-        nModifierUpdateBlock = 0;
-        nZerocoinStartHeight = 0;
+        nModifierUpdateBlock = 999999999;
+        nZerocoinStartHeight = 999999999;
         nZerocoinStartTime = 1590390920;
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
         nBlockRecalculateAccumulators = 999999999; //Trigger a recalculation of accumulators
