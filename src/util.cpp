@@ -503,7 +503,10 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
             std::string strHeader =
                 "# Radarcoin Configuration File!\n"
 		"addnode=45.61.139.188:41368 \n"
-		"addnode=45.61.138.129:41368 \n";
+		"addnode=45.61.138.129:41368 \n"
+		"addnode=45.61.138.203:41368 \n"
+		"addnode=45.61.138.110:41368 \n";
+
             fwrite(strHeader.c_str(), std::strlen(strHeader.c_str()), 1, configFile);
             fclose(configFile);
             streamConfig.open(GetConfigFile());
